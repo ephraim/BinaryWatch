@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Digital Watch Application"/>
+    <title>Digital Watch</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+    <div id='digital-body'>
+        <div id='battery-rec'></div>
+        <div id='battery-fill'></div>
+        <div id='rec-time'>
+            <div id='str-hours'>
+            	<svg>
+            		<circle id="hc16" cx="50"  cy="5" r="5"/>
+            		<circle id="hc8"  cx="75"  cy="5" r="5" />
+            		<circle id="hc4"  cx="100" cy="5" r="5" />
+            		<circle id="hc2"  cx="125" cy="5" r="5" />
+            		<circle id="hc1"  cx="150" cy="5" r="5" />
+            	</svg>
+            </div>
+            <div id='str-minutes'>
+            	<svg>
+            		<circle id="mc32" cx="25"  cy="5" r="5" />
+            		<circle id="mc16" cx="50"  cy="5" r="5" />
+            		<circle id="mc8"  cx="75"  cy="5" r="5" />
+            		<circle id="mc4"  cx="100" cy="5" r="5" />
+            		<circle id="mc2"  cx="125" cy="5" r="5" />
+            		<circle id="mc1"  cx="150" cy="5" r="5" />
+            	</svg>
+            </div>
+            <div id='str-seconds'>
+            	<svg>
+            		<circle id="sc32" cx="25"  cy="5" r="5" />
+            		<circle id="sc16" cx="50"  cy="5" r="5" />
+            		<circle id="sc8"  cx="75"  cy="5" r="5" />
+            		<circle id="sc4"  cx="100" cy="5" r="5" />
+            		<circle id="sc2"  cx="125" cy="5" r="5" />
+            		<circle id="sc1"  cx="150" cy="5" r="5" />
+            	</svg>
+            </div>
+        </div>
+
+        <div id='rec-string-time'>
+            <div id='str-day'></div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
